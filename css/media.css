@@ -1,0 +1,122 @@
+@media (max-width: 1140px) {
+    .container {
+        width: 968px;
+    }
+    .parts-item__title {
+        font-size: 36px;
+    }
+    .main-title {
+        padding: 132px 0 140px 20px;
+    }
+    .timer-title {
+        font-size: 36px;
+    }
+    .countdown-time {
+        font-size: 72px;
+    }
+    .timer {
+        width: 870px;
+    }
+}
+@media (max-width: 967px) {
+    .container {
+        width: 768px;
+    }
+    .footer-link,
+    .timer,
+    .main {
+        width: 740px;
+    }
+    .main-title {
+        font-size: 72px;
+        padding: 100px 0 100px 20px;
+    }
+    .main-title::before {
+        width: 180px;
+        height: 240px;
+    }
+    .timer-title {
+        font-size: 28px;
+    }
+    .countdown-time {
+        font-size: 56px;
+    }
+    .countdown-text {
+        font-size: 20px;
+    }
+    .parts-item__title {
+        font-size: 24px;
+    }
+    .parts-item {
+        margin-bottom: 80px;
+    }
+    .parts-link {
+        width: 260px;
+        padding: 20px 0;
+        font-size: 22px;
+        margin-bottom: 80px;
+    }
+    .footer-text {
+        margin-bottom: 80px;
+    }
+    @media (max-width: 767px) {
+        .container {
+            width: 360px;
+        }
+        .footer-link,
+        .timer,
+        .main {
+            width: 360px;
+        }
+        .main { 
+            height: 100vh;
+        }
+        .main-title {
+            text-align: center;
+            font-size: 56px;
+            padding: 220px 0 170px 0;
+        }
+        .main-title::before {
+            top: 30px;
+            right: 50%;
+            width: 90px;
+            height: 160px;
+            transform: translateX(50%);
+        }
+        .timer-title {
+            font-size: 18px;
+            padding-bottom: 30px;
+        }
+        .countdown-time {
+            font-size: 42px;
+        }
+        .countdown-text {
+            font-size: 14px;
+        }
+        .parts-item__title {
+            font-size: 16px;
+            padding: 0 0 0 20px;
+        }
+        .parts-link {
+            width: 180px;
+            padding: 16px 0;
+            font-size: 16px;
+        }
+        .footer-link {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .footer-link__item {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        .footer-text {
+            width: 260px;
+            font-size: 12px;
+            margin-bottom: 40px;
+        }
+        
+    }
+
+}
