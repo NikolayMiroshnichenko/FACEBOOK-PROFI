@@ -68,13 +68,13 @@
         .main {
             width: 360px;
         }
-        .main { 
+        .main {
             height: 100vh;
         }
         .main-title {
             text-align: center;
             font-size: 56px;
-            padding: 220px 0 170px 0;
+            padding: 220px 0 120px 0;
         }
         .main-title::before {
             top: 30px;
@@ -84,7 +84,7 @@
             transform: translateX(50%);
         }
         .timer-title {
-            font-size: 18px;
+            font-size: 16px;
             padding-bottom: 30px;
         }
         .countdown-time {

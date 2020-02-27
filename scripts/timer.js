@@ -46,12 +46,23 @@ function initializeClock( id, endtime ) {
 function startTimer() {
     let deadline = new Date( Date.parse( new Date() ) + 172800 * 1000 );
 
-    if ( localStorage.data == undefined ) {
+    const items = localStorage.getItem('data');
+    console.log(items)
+    if (!items) {
         localStorage.setItem( 'data', deadline );
         initializeClock( "countdown", localStorage.data );
-    } else {
-        initializeClock( "countdown", localStorage.data );
     }
+
+    initializeClock( "countdown", localStorage.data );
 }
 
 startTimer();
+
+    // let deadline = new Date( Date.parse( new Date() ) + 172800 * 1000 );
+
+    // if ( localStorage.data == undefined ) {
+    //     localStorage.setItem( 'data', deadline );
+    //     initializeClock( "countdown", localStorage.data );
+    // } else {
+    //     initializeClock( "countdown", localStorage.data );
+    // }

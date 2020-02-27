@@ -76,11 +76,21 @@ body {
     width: 100%;
     margin-bottom: 150px;
 }
-.parts-item__img {
+.parts-item__video {
+    position: relative;
     display: block;
     width: 100%;
-    height: auto;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height:0;
     margin-bottom: 40px;
+}
+.video {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
 }
 .parts-item__title {
     font-size: 44px;
