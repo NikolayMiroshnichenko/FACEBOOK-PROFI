@@ -8,9 +8,9 @@ body {
 }
 .main {
     width: 60%;
+    min-height: 720px;
     height: 100vh;
     margin: 0 auto;
-    margin-bottom: 140px;
 }
 .main-title {
     position: relative;
