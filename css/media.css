@@ -1,56 +1,60 @@
-@media (min-width: 1440px) {
-    .main-title {
-        font-size: 180px;
-    }
+@media (min-width: 1280px) {
 }
-@media (max-width: 1140px) {
-    .container {
-        width: 968px;
-    }
-    .parts-item__title {
-        font-size: 36px;
-    }
+@media (min-width: 1420px) {
     .main-title {
-        padding: 132px 0 140px 20px;
-    }
+        font-size: 90px;
+        padding: 102px 0 140px 20px;
+    }    
     .timer-title {
-        font-size: 36px;
+        font-size: 38px;
     }
     .countdown-time {
-        font-size: 72px;
+        font-size: 70px;
     }
-    .timer {
-        width: 870px;
+}
+@media (min-width: 1560px) {
+    .main-title {
+        font-size: 100px;
+    }    
+}
+@media (min-width: 1640px) {
+    .main-title {
+        font-size: 110px;
+    }    
+}
+@media (min-width: 1860px) {
+    .main-title {
+        font-size: 130px;
+    }    
+}
+@media (min-width: 2000px) {
+    .container {
+        width: 1280px;
+    }    
+}
+@media (max-width: 1140px) {
+    .main-title {
+        font-size: 66px;
+    }
+    .timer-title {
+        font-size: 24px;
     }
 }
 @media (max-width: 967px) {
-    .container {
-        width: 768px;
-    }
-    .footer-link,
     .timer,
     .main {
-        width: 740px;
+        width: 70%;
     }
     .main-title {
-        font-size: 72px;
+        font-size: 56px;
         padding: 100px 0 100px 20px;
     }
-    .main-title::before {
-        width: 180px;
-        height: 240px;
-    }
     .timer-title {
-        font-size: 28px;
-    }
-    .countdown-time {
-        font-size: 56px;
-    }
-    .countdown-text {
-        font-size: 20px;
+        font-size: 24px;
+        padding-bottom: 40px;
     }
     .parts-item__title {
-        font-size: 24px;
+        font-size: 20px;
     }
     .parts-item {
         margin-bottom: 80px;
@@ -64,123 +68,129 @@
     .footer-text {
         margin-bottom: 80px;
     }
-    @media (max-width: 767px) {
-        .container {
-            width: 360px;
-        }
-        .footer-link,
-        .timer,
-        .main {
-            width: 360px;
-        }
-        .main {
-            height: 100vh;
-        }
-        .main-title {
-            text-align: center;
-            font-size: 56px;
-            padding: 220px 0 120px 0;
-        }
-        .main-title::before {
-            top: 30px;
-            right: 50%;
-            width: 90px;
-            height: 160px;
-            transform: translateX(50%);
-        }
-        .timer-title {
-            font-size: 16px;
-            padding-bottom: 30px;
-        }
-        .countdown-time {
-            font-size: 42px;
-        }
-        .countdown-text {
-            font-size: 14px;
-        }
-        .parts-item__title {
-            font-size: 16px;
-            padding: 0 0 0 20px;
-        }
-        .parts-link {
-            width: 180px;
-            padding: 16px 0;
-            font-size: 16px;
-        }
-        .footer-link {
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 40px;
-        }
-        .footer-link__item {
-            font-size: 12px;
-            margin-bottom: 20px;
-        }
-        .footer-text {
-            width: 260px;
-            font-size: 12px;
-            margin-bottom: 40px;
-        }
-        
+    .footer-link {
+        width: 100%;
     }
-    @media (max-width: 374px) {
-        .container {
-            width: 300px;
-        }
-        .footer-link,
-        .timer,
-        .main {
-            width: 300px;
-        }
-        .main {
-            height: 100vh;
-        }
-        .main-title {
-            text-align: center;
-            font-size: 42px;
-            padding: 180px 0 60px 0;
-        }
-        .main-title::before {
-            top: 20px;
-            right: 50%;
-            width: 80px;
-            height: 160px;
-            transform: translateX(50%);
-        }
-        .timer-title {
-            font-size: 14px;
-            padding-bottom: 30px;
-        }
-        .countdown-time {
-            font-size: 36px;
-        }
-        .countdown-text {
-            font-size: 12px;
-        }
-        .parts-item__title {
-            font-size: 14px;
-            padding: 0 0 0 20px;
-        }
-        .parts-link {
-            width: 140px;
-            padding: 16px 0;
-            font-size: 12px;
-        }
-        .footer-link {
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 40px;
-        }
-        .footer-link__item {
-            font-size: 12px;
-            margin-bottom: 20px;
-        }
-        .footer-text {
-            width: 260px;
-            font-size: 12px;
-            margin-bottom: 40px;
-        }
-        
+    .footer-link__item {
+        padding: 0 10px;
     }
-
 }
+@media (max-width: 767px) {
+    .container {
+        width: 360px;
+    }
+    .footer-link,
+    .timer,
+    .main {
+        width: 360px;
+    }
+    .main {
+        height: 100vh;
+    }
+    .main-title {
+        text-align: center;
+        font-size: 56px;
+        padding: 220px 0 120px 0;
+    }
+    .main-title::before {
+        top: 30px;
+        right: 50%;
+        width: 90px;
+        height: 160px;
+        transform: translateX(50%);
+    }
+    .timer-title {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    .countdown-time {
+        font-size: 42px;
+    }
+    .countdown-text {
+        font-size: 14px;
+    }
+    .parts-item__title {
+        font-size: 16px;
+        padding: 0 0 0 20px;
+    }
+    .parts-link {
+        width: 180px;
+        padding: 16px 0;
+        font-size: 16px;
+    }
+    .footer-link {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .footer-link__item {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .footer-text {
+        width: 260px;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    
+}
+@media (max-width: 374px) {
+    .container {
+        width: 300px;
+    }
+    .footer-link,
+    .timer,
+    .main {
+        width: 300px;
+    }
+    .main {
+        height: 100vh;
+    }
+    .main-title {
+        text-align: center;
+        font-size: 42px;
+        padding: 180px 0 60px 0;
+    }
+    .main-title::before {
+        top: 20px;
+        right: 50%;
+        width: 80px;
+        height: 160px;
+        transform: translateX(50%);
+    }
+    .timer-title {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+    .countdown-time {
+        font-size: 36px;
+    }
+    .countdown-text {
+        font-size: 12px;
+    }
+    .parts-item__title {
+        font-size: 14px;
+        padding: 0 0 0 20px;
+    }
+    .parts-link {
+        width: 140px;
+        padding: 16px 0;
+        font-size: 12px;
+    }
+    .footer-link {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .footer-link__item {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .footer-text {
+        width: 260px;
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    
+}
+
