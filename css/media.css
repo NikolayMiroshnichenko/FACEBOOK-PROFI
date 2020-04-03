@@ -1,58 +1,62 @@
-@media (min-width: 1420px) {
+
+@media (max-width: 1440px) {
+    .container {
+        width: 768px;
+    }
     .main-title {
-        font-size: 90px;
-        padding: 102px 0 140px 20px;
-    }    
+        font-size: 77px;
+        padding: 70px 0 70px 20px;
+    }
     .timer-title {
-        font-size: 38px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .timer-wrapper {
+        margin-bottom: 60px;
     }
     .countdown-time {
-        font-size: 70px;
+        font-size: 40px;
+        margin-bottom: 4px;
     }
-}
-@media (min-width: 1560px) {
-    .main-title {
-        font-size: 100px;
-    }    
-}
-@media (min-width: 1640px) {
-    .main-title {
-        font-size: 110px;
-    }    
-}
-@media (min-width: 1860px) {
-    .main-title {
-        font-size: 130px;
-    }    
-}
-@media (min-width: 2000px) {
-    .container {
-        width: 1280px;
-    }    
-}
-@media (max-width: 1140px) {
-    .main-title {
-        font-size: 66px;
+    .countdown-text {
+        font-size: 14px;
     }
-    .timer-title {
+    .parts-item__title {
         font-size: 24px;
     }
+    .parts-item {
+        margin-bottom: 80px;
+    }
+    .parts-link {
+        width: 200px;
+        font-size: 20px;
+        padding: 20px 10px;
+        margin-bottom: 80px;
+    }
+
 }
 @media (max-width: 967px) {
+    .container {
+        width: 70%;
+    }
     .timer,
     .main {
         width: 70%;
     }
     .main-title {
         font-size: 56px;
-        padding: 100px 0 100px 20px;
+        padding: 60px 0 60px 20px;
     }
     .timer-title {
-        font-size: 24px;
-        padding-bottom: 40px;
+        font-size: 20px;
+        padding-bottom: 20px;
     }
     .parts-item__title {
         font-size: 20px;
+        padding: 0 134px 0 22px;
+    }
+    .parts-item__video {
+        margin-bottom: 20px;
     }
     .parts-item {
         margin-bottom: 80px;
@@ -60,7 +64,7 @@
     .parts-link {
         width: 260px;
         padding: 20px 0;
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 80px;
     }
     .footer-text {
